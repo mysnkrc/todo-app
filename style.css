@@ -1,0 +1,34 @@
+
+.bg-picture img{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-position: cover;
+    z-index: -1;
+    opacity: .2;
+}
+
+#task-title,
+#task-wrapper,
+.task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category {
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(211, 210, 210);
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+#edit, 
+#delete {
+    cursor: pointer;
+    color: rgb(103, 102, 102);
+}
